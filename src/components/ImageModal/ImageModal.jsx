@@ -34,17 +34,14 @@ export default function ImageModal({
     >
       <img src={imgRegular} alt={description} />
       <div className={css.container}>
-        
         <div className={css.info}>
           <FaRegUser className={css.icon} />
           <p className={css.description}>{name}</p>
         </div>
-
         <div className={css.info}>
           <FaRegGrinHearts className={css.icon} />
           <p className={css.description}>{likes}</p>
         </div>
-
       </div>
     </Modal>
   );
